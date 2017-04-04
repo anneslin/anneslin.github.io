@@ -1,0 +1,110 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #00b18b;
+  overflow-y: scroll;
+}
+
+.valueProps
+{
+	font-size: 1.2em;
+	color: white;
+	margin: 20px;
+	text-align: center;
+	font-weight: 700;
+
+}
+#valuePropsContainer{
+	position: absolute;
+	top: 300px;
+	width: 100%;
+	padding-bottom: 60px;
+
+
+}
+.bullet{
+	width: 1.5em;
+	margin-right: 10px;
+}
+
+@keyframes shake{
+	from {
+		transform: translateX(-5px) rotate(-2deg);
+	}
+	50% {
+		transform: translateX(5px) rotate(2deg);
+	}
+	to {
+		transform: translateX(-5px) rotate(-2deg);
+	}
+}
+
+#logo{
+	width:130px;
+}
+
+.logoShake{
+	animation:1s ease shake infinite;
+}
+
+#logo:hover{
+	cursor: pointer;
+}
+
+#name{
+	width:230px;
+}
+
+.titleContainer{
+	text-align: center;
+}
+
+#shakeme{
+	position: absolute;
+	left:calc(50% + 70px);
+	top:100px;
+
+}
+#sm{
+	width:130px;
+	transition:0.2s;
+}
+
+#vp1{
+	display: none;
+}
+#vp2{
+	display: none;
+}
+#vp3{
+	display: none;
+}
+#vp4{
+	display: none;
+}
+#vp5{
+	display: none;
+}
+
+.learn{
+	border: 5px solid white;
+	width: 150px;
+	margin-left: calc(50% - 80px);
+}
+
+.learn:hover{
+	cursor: pointer;
+}
+#learnLess{
+	font-size: 1.2em;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+}
+#pitch{
+	font-size: 1em;
+	color: white;
+	text-align: justify;
+	width:50%;
+	margin-left: 25%;
+	display: none;
+}
